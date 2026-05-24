@@ -1,6 +1,6 @@
 package mypkg;
 import mpkg.PDemo;
- class PackageDemo
+class PackageDemo
 {
    public static void main(String args[])
    {
@@ -8,4 +8,4 @@ import mpkg.PDemo;
         PDemo ob=new PDemo();
         ob.printer();
 	}  
-   }
+}
