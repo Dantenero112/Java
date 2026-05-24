@@ -7,13 +7,10 @@ public class TestMerge {
         arr[j] = temp;
     }
 
-  
     static int partition(double[] arr, double low, double high)
     {
         
         double pivot = arr[(int)high];
-
-      
         double i = (low - 1);
 
         for (int j = low; j <= high - 1; j++) {
@@ -35,12 +32,12 @@ public class TestMerge {
         if (low < high) {
 
             double pi = partition(arr, low, high);
-
-            
             quickSort(arr, low, pi - 1);
             quickSort(arr, pi + 1, high);
         }
-    }    public static void main(String[] args) 
+    }    
+    
+    public static void main(String[] args) 
     {
         int nums1[]={2,2,2,4,4}, nums2[]={2,2,4,4};
         double median; int nObs=nums1.length+nums2.length;
@@ -48,7 +45,8 @@ public class TestMerge {
         int k=0;
         
             for(int i=0,j=0;i<merged.length || j<merged.length;i++,j++)
-            {   if(i<=nums1.length-1)
+            {   
+                if(i<=nums1.length-1)
                     {
                     merged[k]=nums1[i];
                     k++;
@@ -56,9 +54,8 @@ public class TestMerge {
                 if(j<=nums2.length-1)
                     {
                     merged[k]=nums2[j];
-                k++;
+                    k++;
                     }
-
             }
             for(int i=0;i<merged.length;i++)
             System.out.println(merged[i]);
