@@ -6,7 +6,7 @@ m.printer();
 m.show();
 MyInterface2.show();*/
 
-MyInterface2.show();
-MyClass3.show();
-}
+  MyInterface2.show();
+  MyClass3.show();
+  }
 }
