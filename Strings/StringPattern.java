@@ -2,9 +2,7 @@ class StringPattern
 {
    int patternSearch(String st, String pattern){
    int result=-1,i=0;
-
    while(i<st.length()-pattern.length()){
-
    if(st.charAt(i)==pattern.charAt(0))
    {    int j=1;
     	while(j<pattern.length()){
