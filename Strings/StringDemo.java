@@ -40,7 +40,7 @@ s=s.trim();
 System.out.println(s.length());
 System.out.println(s.toUpperCase());
 System.out.println(s.toLowerCase());*/
-
+ 
 String s1="Lucknow";
 String s2=new String("LUCKNOW");
 System.out.println(s1==s2);
