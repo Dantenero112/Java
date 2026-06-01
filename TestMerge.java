@@ -6,7 +6,6 @@ public class TestMerge {
         arr[i] = arr[j];
         arr[j] = temp;
     }
-
     static int partition(double[] arr, double low, double high)
     {
         
