@@ -1,5 +1,6 @@
 class ArraySumDemo{
-	public int sumArray(int[] a){
+	public int sumArray(int[] a)
+	{
 	 int temp=0;
 	 for(int i=0;i<a.length;i++)
 	 	temp=temp+a[i];
